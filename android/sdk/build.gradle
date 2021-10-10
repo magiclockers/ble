@@ -1,0 +1,8 @@
+configurations.maybeCreate("default")
+
+dependencies {
+    implementation project(path: ':capacitor-android')
+    implementation project(path: ':')
+    implementation project(':airbnk')
+}
+artifacts.add("default", file('sdk.aar'))
