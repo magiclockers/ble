@@ -1,11 +1,11 @@
-# mixdemo
+# magicmix
 
 connect device and communicate through ble
 
 ## Install
 
 ```bash
-npm install mixdemo
+npm install magicmix
 npx cap sync
 ```
 
